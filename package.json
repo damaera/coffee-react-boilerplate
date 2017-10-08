@@ -1,0 +1,28 @@
+{
+  "name": "coffee-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --hot",
+    "prod": "webpack -p"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "coffee-loader": "^0.8.0",
+    "coffeescript": "next",
+    "html-webpack-plugin": "^2.30.1",
+    "react-hot-loader": "^1.3.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
