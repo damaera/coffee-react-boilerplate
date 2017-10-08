@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 16px;
+  margin: 10px;
+  background: pink;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: .7;
+}
