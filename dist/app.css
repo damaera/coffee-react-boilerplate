@@ -1,0 +1,1 @@
+body{text-align:center;margin:0;font-size:20px;background:#222;color:pink}body,button{font-family:monospace}button{position:relative;font-size:16px;padding:10px 16px;margin:10px;background:pink;outline:none;border:none;border-radius:2px;transition:all .2s;cursor:pointer;top:0}button:hover{opacity:.7}button:active{top:4px}

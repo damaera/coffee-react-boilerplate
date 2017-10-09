@@ -2,9 +2,14 @@ body {
   text-align: center;
   margin: 0;
   font-size: 20px;
+  font-family: monospace;
+  background: #222222;
+  color: pink;
 }
 
 button {
+  position: relative;
+  font-family: monospace;
   font-size: 16px;
   padding: 10px 16px;
   margin: 10px;
@@ -15,8 +20,13 @@ button {
 
   transition: all 0.2s;
   cursor: pointer;
+  top: 0px;
 }
 
 button:hover {
   opacity: .7;
+}
+
+button:active {
+  top: 4px;
 }
